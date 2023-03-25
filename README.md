@@ -2,10 +2,10 @@
 #### This is a Python script that scrapes the list of topics from the Github Topics page [(https://github.com/topics)] and the top repositories for each topic.
 ## Prerequisites
 #### Before running the script, make sure that you have installed the following Python libraries:
-#### requests
+#### >requests
 #### > BeautifulSoup
 #### > pandas
-#### > Usage
+### Usage
 #### To use this script, simply run it from the command line:
 #### `python github_topic_scraper.py`
 #### This will scrape the top repositories for each topic on GitHub and store the data in a separate CSV file for each topic in the data/ directory.
